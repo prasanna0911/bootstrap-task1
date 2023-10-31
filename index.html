@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebPage</title>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!--bootstrap JS-->
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/8b1679ca39.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Heading-->
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary  p-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">HANDTIME</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar"><span
+            class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-items">
+              <a href="#" class="nav-link active"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link"><i class="fa-solid fa-circle-info"></i>&nbsp;About</a>
+            </li>
+            <li>
+              <a href="#product" class="nav-link"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Products</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link"><i class="fa-solid fa-phone"></i>&nbsp;Contact US</a>
+            </li>
+            <li>
+              <a href="#review" class="nav-link"><i class="fa-regular fa-face-smile"></i>&nbsp;Review</a>
+            </li>
+            <li>
+              <a href="#login" class="nav-link"><i class="fa-solid fa-user"></i>&nbsp;Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--End Heading-->
+  <!--carousel-->
+  <div id="carousel" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/Images/slider-bg.jpg" alt="Slider" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/Images/slider-2.jpeg" alt="Slider" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/Images/slider-3.jpeg" alt="Slider" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/Images/slider-4.jpeg" alt="Slider" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/Images/slider-5.jpeg" alt="Slider" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ <!--carousel END-->
+  <!--About-->
+  <div class="container-fluid mt-3 d-flex  align-item-center" style="height: auto;" id="about">
+    <div class="row">
+      <div class=" col-md align-self-center m-3">
+        <h1>About Our Shop</h1>
+        <P>There are many variations of passages of Lorem Ipsum There are many variations of passages of Lorem Ipsum</P>
+        <button class="btn btn-primary mx-5">READ MORE</button>
+      </div>
+      <div class="col-md">
+        <img src="./assets/Images/a-1.jpg" class="img-thumbnail" width="400px"">
+      </div>
+      <div class=" col-md my-5">
+        <img src="./assets/Images/a-2.jpg" class="img-thumbnail" width="400px"">
+      </div>
+      
+
+    </div>
+
+  </div>
+  <div class=" container-fluid">
+        <div class="row">
+          <div class="container-fluid col">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-header text-bg-dark">
+                <h3>FAST DELIVERY</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/feature-1.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, minima!</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid col">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-header text-bg-dark">
+                <h3>FREE SHIPING</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/feature-2.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, minima!</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid col">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-header text-bg-dark">
+                <h3>BEST QUALITY</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/feature-3.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, minima!</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid col">
+            <div class="card text-center" style="width: 18rem;">
+              <div class="card-header text-bg-dark">
+                <h3>24X7 CUSTOMER SUPPORT</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/feature-4.png">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, minima!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End About-->
+      <!--Products-->
+      <center class="p-3 text-primary" id="product">
+        <h3>OUR PRODUCTS</h3>
+      </center>
+      <div class="container my-2">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w1.png" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 700</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w2.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 200</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w3.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 300</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w4.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 600</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w5.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 300</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w6.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 500</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w7.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 600</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w8.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 300</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header text-center text-bg-dark">
+                <h3>MENS WATCH</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/w9.png" height="300px" class="card-img-top">
+              </div>
+              <div class="card-footer text-center text-bg-info">
+                <h5>$ 500</h5>
+                <a href="#" class="btn btn-primary d-block">ADD CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Products-->
+      <!--Contact Us-->
+      <div class="container-fluid mt-5" id="contact">
+        <div class="row">
+          <div class="col-sm-6">
+            <!--map-->
+            <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="600"
+              height="500"
+              src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=madurai&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+          </div>
+          <div class="col-sm-6">
+            <!--form-->
+            <div class="card">
+              <div class="card-header text-bg-dark">
+                <h3>Contact US</h3>
+              </div>
+              <div class="card-body p-5">
+                <form action="" method="post">
+                  <div class="form-group my-2">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Your FullName">
+
+
+
+                    <label for="name">Mobile No</label>
+                    <input type="number" class="form-control" id="Mobile" placeholder="+91 1234567891">
+
+
+
+                    <label for="name">Email ID</label>
+                    <input type="text" class="form-control" id="Email" placeholder="Enter Your Mail Id">
+
+
+
+                    <label for="name">Message</label>
+                    <input type="text" class="form-control" id="Message" placeholder="Enter Your Message">
+
+                    <a href="#" class="btn btn-primary d-block">SEND</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Thanks for Your Support</small>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Contact-->
+      <!--Review-->
+      <div class="container d-flex justify-content-around  text-center my-3" id="review">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" style="width:18rem;">
+              <div class="card-header">
+                <h3>Review</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/client.jpg" class="card-img-top">
+                <p>MOROJINK
+                  CUSTOMER
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" style="width:18rem;">
+              <div class="card-header">
+                <h3>Review</h3>
+              </div>
+              <div class="card-body">
+                <img src="./assets/Images/client-2.jpg" class="card-img-top">
+                <p>MOROJINK
+                  CUSTOMER
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Review-->
+      <!--login-->
+      <div class="container text-center" id="login">
+        <label for="LogIn" class="label-brand">LOG IN</label>
+        <form action="#" class="from-control">
+          <div class="form-group">
+            <label for="User ID">User Id</label>
+            <input type="text" class="form-control">
+            <label for="Password">Password</label>
+            <input type="password" class="form-control">
+            <a href="#" class="btn btn-primary d-block my-3">LOG IN</a>
+          </div>
+
+        </form>
+
+      </div>
+      <!--End Login-->
+      <!--footer-->
+      <div class="container-fluid text-bg-dark">
+        <div class="row">
+          <div class="col-sm-4">
+            <br>
+            <h6 class="h3">HAND TIME</h6><br>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Nobis, minus?</p>
+
+          </div>
+          <div class="col-sm-4">
+            <br>
+            <h6 class="h3">contact us</h6><br>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Nobis, minus?</p>
+
+          </div>
+          <div class="col-sm-4">
+            <br>
+            <h6 class="h3"></h6><br>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Nobis, minus?</p>
+            Social Media<br>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+
+        </div>
+      </div>
+      <!--EndFooter-->
+</body>
+
+</html>
